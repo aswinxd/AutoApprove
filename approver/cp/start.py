@@ -11,7 +11,7 @@ async def privacy_command(client, message):
     group_invite_link = f"https://t.me/{bot_username}?startgroup=true"
     Help_button = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("Help and commands", callback_data="help_command")],
+            [InlineKeyboardButton("powered by elite bots", url="https://t.me/NonoDas")],
             [InlineKeyboardButton("➕ Add Bot to Your Group", url=group_invite_link)]
         ]
     )

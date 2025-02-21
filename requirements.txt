@@ -2,3 +2,4 @@ pyrogram==2.0.106
 pymongo==4.0.2
 yt-dlp==2024.5.27
 asyncio
+dotenv

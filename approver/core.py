@@ -26,13 +26,6 @@ class app(Client):
         self.username = self.me.username
         self.mention = self.me.mention
 
-        try:
-            await self.send_message(
-                chat_id=config.SUDOERS,
-                text=f"bot restarted",
-            )
-        finally:
-             LOGGER(__name__).info(f"Running {self.name}")
 
     async def stop(self):
         await super().stop()
